@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black ">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <title>首页</title>
+
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-startup-image" href="img/apple-touch-startup-image-750x1294.png">
+    <link rel="stylesheet" href="http://ue.17173cdn.com/a/lib/reset-m-1.1.css">
+    <link rel="stylesheet" href="{{ asset_url('/css/index.css') }}">
+    <script src="http://ue.17173cdn.com/a/lib/jquery-2.1.1.min.js"></script>
+  </head>
+  <body>
+    <!-- START 17173 Site Census -->
+    <script type="text/javascript" src="http://js.17173.com/ping.js"></script>
+    <noscript>
+      <img src="http://log.17173.com/ping.gif" height="0" width="0" alt="" />
+    </noscript>
+    <!-- END 17173 Site Census -->
+    <div class="main">
+      Hello world 你好
+      <a href="./directory/pug-test.html">测试 pug 的渲染</a>
+      <h1>17173</h1>
+    </div>
+
+    <div>
+      INC 测试
+      {{ inc_include('/inc/be-included.shtml') }}
+    </div>
+    <script type="text/javascript" src="{{ webpack_url('/js/index.entry.js') }}"></script>
+    <script type="text/javascript" src="{{ webpack_url('/js/common.entry.js') }}"></script>
+  </body>
+</html>
