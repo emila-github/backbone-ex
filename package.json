@@ -1,5 +1,5 @@
 {
-  "name": "ued-project",
+  "name": "backbone-ex",
   "version": "1.0.0",
   "description": "",
   "main": "",
@@ -22,6 +22,11 @@
     "urljoin": "0.1.5",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1"
+  },
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "moment": "^2.17.1",
+    "underscore": "^1.8.3"
   },
   "ued.cdnPath": "/a/simpleweb2017",
   "ued.previewPath": "/simpleweb2017"

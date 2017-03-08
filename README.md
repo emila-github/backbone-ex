@@ -59,20 +59,8 @@ ued help
 
 
 
-## 需求地址 ##
-\\\\samba.local.17173.com\XXX
+## 学习笔记 ##
+Hello Backbone.js 简单示例
 
-## 上线地址 ##
-http://xxx.17173.com/simpleweb2017/
-
-## 预览地址 ##
-http://page.local.17173.com/simpleweb2017/index.shtml
-
-## 接口文档 ##
-
-
-
-
-## 注意事项 ##
 
 
